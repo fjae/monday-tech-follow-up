@@ -1,0 +1,108 @@
+<mat-label class="app-emotions-title">
+	<p>Aplicación Registro de Emociones</p>
+</mat-label>
+<div class="app-emotions-row">
+	<div class="app-emotions-first-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsAnger(true)" [disabled] = "!(isMyCauseEmpty())">Enfado</button>
+		</div>
+	</div>
+	<div class="app-emotions-second-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsSadness(true)" [disabled] = "!(isMyCauseEmpty())">Tristeza</button>
+		</div>
+	</div>
+</div>
+<div class="app-emotions-row">
+	<div class="app-emotions-first-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsFear(true)" [disabled] = "!(isMyCauseEmpty())">Miedo</button>
+		</div>
+	</div>
+	<div class="app-emotions-second-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsJoy(true)" [disabled] = "!(isMyCauseEmpty())">Disfrute</button>
+		</div>
+	</div>
+</div>
+<div class="app-emotions-row">
+	<div class="app-emotions-first-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsInterest(true)" [disabled] = "!(isMyCauseEmpty())">Inter&eacute;s</button>
+		</div>
+	</div>
+	<div class="app-emotions-second-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsSurprise(true)" [disabled] = "!(isMyCauseEmpty())">Sorpresa</button>
+		</div>
+	</div>
+</div>
+<div class="app-emotions-row">
+	<div class="app-emotions-first-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsDisgust(true)" [disabled] = "!(isMyCauseEmpty())">Desagrado</button>
+		</div>
+	</div>
+	<div class="app-emotions-second-col">
+		<div class="app-emotions-emotion-button">
+			<button class="app-emotions-emotion-button-size" mat-raised-button (click)="setIsShame(true)" [disabled] = "!(isMyCauseEmpty())">Verg&umacr;enza</button>
+		</div>
+	</div>
+</div>
+<div class="app-emotions-reason-row">
+	<div class="app-emotions-reason">
+		<div class="app-emotions-reason-form">
+			<mat-form-field>
+				<textarea class="app-emotions-reason-form-textarea" 
+					matinput 
+					placeholder="{{causeText}}" 
+					(change)="onCauseChange()" 
+					cdkTextareaAutosize
+					cdkAutosizeMinRows="10"
+					cdkAutosizeMaxRows="20"
+					cdkAutosizeMinCols="100"
+					cdkAutosizeMaxCols="200"
+					#autosize="cdkTextareaAutosize">
+				</textarea> 
+			</mat-form-field>
+		</div>
+	</div>
+</div>
+
+<mat-label class="app-emotions-title">
+	<p>¿Quieres registrar esa emoci&oacute;n?</p>
+</mat-label>
+<div class="app-emotions-row">
+	<div class="app-emotions-choice">
+		<div class="app-emotions-choice-button">
+        	<button class="app-emotions-choice-button-size" mat-raised-button [disabled]="(isMyCauseEmpty())">Registrar</button>
+		</div>
+	</div>
+	<div class="app-emotions-choice">
+		<div class="app-emotions-choice-button">
+        	<button class="app-emotions-choice-button-size" mat-raised-button [disabled]="(isMyCauseEmpty())">Cancelar</button>
+		</div>
+	</div>
+</div> 
+<div class="app-emotions-happyness-section">
+	<mat-label class="app-emotions-title">
+		<p>¿Te gustaría que tu día de hoy se repitiera mañana?</p>
+	</mat-label>
+	<div class="app-emotions-row">
+		<div class="app-emotions-happyness-col1">
+			<div class="app-emotions-happyness-button">
+            	<button class="app-emotions-happyness-button-size" mat-raised-button>S&iacute;</button>
+			</div>
+		</div>
+		<div class="app-emotions-happyness-col2">
+			<div class="app-emotions-happyness-button">
+           		<button class="app-emotions-happyness-button-size" mat-raised-button>Quiz&aacute;</button>
+			</div>
+		</div>
+		<div class="app-emotions-happyness-col3">
+			<div class="app-emotions-happyness-button">
+            	<button class="app-emotions-happyness-button-size" mat-raised-button>No</button>
+			</div>
+		</div>
+	</div>
+</div>

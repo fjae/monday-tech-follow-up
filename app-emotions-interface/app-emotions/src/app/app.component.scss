@@ -1,0 +1,149 @@
+.app-emotions-title {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 1em;
+	font-size: 1em;
+	font-weight: 500;
+	margin-top: 1em!important; 
+	margin-left: 1em!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 1em!important;
+}
+
+.app-emotions-row {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin-top: 1em!important; 
+	margin-left: 1em!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 1em!important;
+}
+
+.app-emotions-first-col {
+	display: flex;
+	position: relative;
+	width: 50%!important;
+}
+
+.app-emotions-second-col {
+	display: flex;
+	position: relative;
+	width: 50!important;
+}
+
+.app-emotions-emotion-button {
+	width: 10em;
+	height: 5em;
+}
+
+.app-emotions-emotion-button-size {
+	width: 10em;
+	height: 5em;
+	background-color: #f7951bff!important;
+	color: #ffffffff!important;
+	font-weight: 500;
+}
+
+.app-emotions-reason-row {
+	display: flex;
+	position: relative!important;
+	width: 100%!important;
+	height: 5em!important;
+	margin-left: 1em!important;
+	margin-top: 0!important;
+}
+
+.app-emotions-reason {
+	display: flex;
+	position: relative;
+	width: 100%!important;
+	height: 5em!important;
+	margin-top: 0em!important;
+}
+
+.app-emotions-reason-form {
+	display: flex;
+	position: relative;
+	width: 100%!important;
+	height: 5em!important;
+	color: #ffffffff!important;
+	background-color: #918f90ff!important; 
+	margin-top: 0em!important;
+	font-weight: 500;
+}
+
+.app-emotions-reason-form-textarea {
+	min-width: 22em!important;
+	color: #ffffffff!important;
+	background-color: #918f90ff!important; 
+	margin-top: 0em!important;
+	font-weight: 500;
+}
+
+.app-emotions-emotion-reason-form-text {
+	min-width: 10em!important;
+	max-width: 10em!important;
+	min-height: 1em!important;
+}
+
+.app-emotions-choice {
+	display: flex;
+	position: relative;
+	width: 50%!important;
+}
+
+.app-emotions-choice-button {
+	display: flex;
+	width: 10em!important;
+	height: 10em!important;
+}
+
+.app-emotions-choice-button-size {
+	position: relative;
+	width: 10em!important;
+	height: 10em!important;
+	color: #ffffffff!important;
+	background-color: #f7951bff!important;
+	margin-top: 0.0em!important;
+	padding-top: 0.0em!important;
+	margin-bottom: 0em!important;
+	padding-bottom: 0em!important;
+	font-weight: 500;
+	text-align: center;
+}
+
+.app-emotions-happyness-section {
+	z-index: -1!important;
+}
+
+.app-emotions-happyness-col1 {
+	position: relative;
+	width: 33%!important;
+}
+
+.app-emotions-happyness-col2 {
+	position: relative;
+	width: 33%!important;
+}
+
+.app-emotions-happyness-col3 {
+	position: relative;
+	width: 33%!important;
+}
+
+.app-emotions-happyness-button {
+	position: relative;
+	max-width: 33%!important;
+}
+
+.app-emotions-happyness-button-size {
+	min-width: 6em!important;
+	max-width: 6em!important;
+	min-height: 4em;
+	text-align: center!important;
+	background-color: #f7951bff!important;
+	color: #ffffffff!important;
+	font-weight: 500;
+}
