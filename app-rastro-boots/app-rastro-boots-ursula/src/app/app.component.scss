@@ -1,0 +1,211 @@
+.app-emotions-title {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 1.5em;
+	font-size: 1em;
+	font-weight: 500;
+	margin-top: 1em!important; 
+	margin-left: 1em!important;
+	margin-bottom: 0.5em!important;
+	padding-bottom: 0.5em!important;
+}
+
+.app-emotions-row {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin-top: 1em!important; 
+	margin-left: 1em!important;
+	margin-bottom: 0em!important;
+	padding-bottom: 0em!important;
+}
+
+.app-emotions-first-col {
+	display: flex;
+	position: relative;
+	width: 50%!important;
+}
+
+.app-emotions-second-col {
+	display: flex;
+	position: relative;
+	width: 50%!important;
+}
+
+.app-emotions-emotion-button {
+	width: 10em;
+	height: 5em;
+}
+
+.app-emotions-emotion-button-size {
+	width: 10em;
+	height: 5em;
+	background-color: #f7951bff!important;
+	color: #ffffffff!important;
+	font-weight: 500;
+	border-radius: 2em!important;
+}
+
+.app-emotions-reason-row {
+	display: flex!important;
+	position: relative!important;
+	width: 100%!important;
+	height: 8em!important;
+	margin-left: 1em!important;
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+}
+
+.app-emotions-reason {
+	display: flex;
+	position: relative;
+	width: 100%!important;
+	height: 10em!important;
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+}
+
+.app-emotions-reason-form {
+	display: flex!important;
+	position: relative!important;
+	width: 100%!important;
+	height: 10em!important;
+	color: #ffffffff!important;
+	background-color: #918f90ff!important; 
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+	font-weight: 500!important;
+}
+
+.app-emotions-reason-form-formfield {
+	display: flex!important;
+	position: relative;
+	width: 100%!important;
+	height: 10em!important;
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+	font-weight: 500;
+}
+
+.app-emotions-reason-form-textarea {
+	display: flex!important;
+	position: relative!important;
+	width: 22em!important;
+	height: 7.5em!important;
+	color: #ffffffff!important;
+	background-color: #918f90ff!important; 
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+	font-weight: 500!important;
+	text-align: left!important;
+}
+
+.app-emotions-reason-row-choice {
+	display: flex!important;
+	position: relative!important;
+	width: 100%!important;
+	height: 5em!important;
+	margin-left: 1em!important;
+	margin-top: 0em!important;
+	margin-bottom: 0em!important;
+}
+
+.app-emotions-title-choice {
+	display: flex!important;
+	position: relative!important;
+	width: 100%!important;
+	height: 1em!important;
+	font-size: 1em!important;
+	font-weight: 500!important;
+	margin-top: 1em!important; 
+	margin-left: 0em!important;
+	margin-bottom: 0em!important;
+	padding-bottom: 0.5em!important;
+}
+
+.app-emotions-choice {
+	display: flex!important;
+	position: relative!important;
+	width: 50%!important;
+}
+
+.app-emotions-choice-button {
+	display: flex!important;
+	width: 10em!important;
+	height: 5em!important;
+}
+
+.app-emotions-choice-button-size {
+	position: relative!important;
+	width: 100%!important;
+	height: 5em!important;
+	color: #ffffffff!important;
+	background-color: #f7951bff!important;
+	margin-top: 0.0em!important;
+	padding-top: 0.0em!important;
+	margin-bottom: 0em!important;
+	padding-bottom: 0em!important;
+	font-weight: 500;
+	text-align: center;
+	border-radius: 2em!important;
+}
+
+.app-emotions-happyness-section {
+	position: relative!important;
+	display: flex!important;
+	width: 100%!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 1em!important;
+}
+
+.app-emotions-happyness-col1 {
+	position: relative!important;
+	width: 33%!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 0em!important;
+	margin-left: 0em!important;
+	padding-left: 0em!important;
+	margin-top: 0em!important;
+	padding-top: 0em!important;
+	align-content: left!important;
+}
+
+.app-emotions-happyness-col2 {
+	position: relative!important;
+	width: 33%!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 0em!important;
+	margin-top: 0em!important;
+	padding-top: 0em!important;
+	align-content: center!important;
+}
+
+.app-emotions-happyness-col3 {
+	position: relative!important;
+	width: 33%!important;
+	margin-bottom: 1em!important;
+	padding-bottom: 0em!important;
+	margin-right: 0em!important;
+	padding-right: 0em!important;
+	margin-top: 0em!important;
+	padding-top: 0em!important;
+	align-content: right!important;
+}
+
+.app-emotions-happyness-button {
+	position: relative!important;
+	max-width: 33%!important;
+	margin-bottom: 0em!important;
+}
+
+.app-emotions-happyness-button-size {
+	min-width: 6em!important;
+	max-width: 6em!important;
+	min-height: 5em!important;
+	text-align: center!important;
+	background-color: #f7951bff!important;
+	color: #ffffffff!important;
+	font-weight: 500!important;
+	border-radius: 2em!important;
+}
